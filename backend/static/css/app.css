@@ -1,0 +1,142 @@
+.container {
+    width: 100%;
+}
+
+.no-border-radius {
+    border-radius: 0;
+}
+
+.line {
+    margin: 5px 0;
+}
+
+#logo {
+    color: #f7cf83;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+#footer {
+    margin-top: 100px;
+}
+
+.navbar {
+    min-height: 30px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.image-thumb {
+    width: 64px;
+    height: 64px;
+}
+
+.image-tiny-thumb {
+    width: 32px;
+    height: 32px;
+}
+
+.image-small-thumb {
+    height: 80px;
+}
+
+.space {
+    width: 100%;
+    height: 15px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.event {
+    border: #0066cc solid 1px;
+}
+
+.icon-chevron-up {
+    background: url("../img/bootstrap.image.png") repeat scroll -289px -120px rgba(0, 0, 0, 0);
+    display: block;
+    height: 15px;
+    margin-left: 12px;
+    width: 15px;
+}
+
+.icon-chevron-down {
+    background: url("../img/bootstrap.image.png") repeat scroll -313px -119px rgba(0, 0, 0, 0);
+    display: block;
+    height: 15px;
+    margin-left: 12px;
+    width: 15px;
+}
+
+.customer-button a {
+    color: white;
+}
+
+.background-row-red {
+    background: #ff0000;
+}
+
+.background-row-gray {
+    background: #d3d3d3;
+}
+
+.background-row-white {
+    background: white;
+}
+.pager li>a,.pager li>span{border-radius:15px;}
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+    display: inline;
+}
+.indicator {
+    background: url("../img/indicator.gif") no-repeat left center;
+    margin-left: 2px;
+    padding: 2px 0 2px 18px;
+    line-height: 1.4;
+}
+.close {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 9px;
+    height: 9px;
+    background-repeat: no-repeat !important;
+    background-image: url("../img/remove-icon-small.png") !important;
+}
+
+.alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
